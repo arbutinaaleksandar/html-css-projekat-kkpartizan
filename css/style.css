@@ -1,0 +1,1046 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:  1.7em;
+}
+
+a{
+
+    color: #333;
+    text-decoration:  none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+
+}
+
+p{
+    margin: 10px 0;
+}
+
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.lead{
+    font-size:20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size:15px;
+    color: #fff;
+    background:#4444;
+    padding: 13px 20px;
+    border:none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgb(212,175,55,0.4);
+    color: #fff;
+    transition: 0.7s;
+    
+}
+
+#navbar{
+    background: #232323;
+    color: #fff;
+    overflow: none;
+    border-bottom: 2px solid #d4af37;
+}
+
+#navbar a{
+    color: #fff;
+}
+
+@font-face {
+    font-family: partizan;
+    src: url("../font/HighlandGothicFLF-Bold.ttf");
+}
+
+
+#navbar h1{
+    color: black;
+    font-family: partizan;
+    float: left;
+    padding-top: 20px;
+    text-shadow: 0px 0px 5px #D4AF37;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background: #4444;
+    color: #D4AF37;
+    transition: 0.7s;
+}
+
+
+#showcase{
+    background: url("../img/wallpaper.jpg") no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 70px;
+}
+
+@font-face {
+    font-family: dobrodosli;
+    src: url("../font/SourceSansPro-Bold.ttf");
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+    color: rgba(68, 68, 68, 0.219) ;
+    padding-bottom: 320px;
+    font-family: dobrodosli;
+    -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.329);
+  
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 15px;
+    line-height: 1.7em;
+    
+}
+
+.btn-novosti{
+    display: inline-block;
+    font-size:15px;
+    color: #fff;
+    background:#4444;
+    padding: 13px 20px;
+    border:none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn-novosti:hover{
+    background: rgb(212,175,55,0.4);
+    color: #fff;
+    transition: 0.7s;
+    
+}
+
+#dres-info {
+    height: 400px;
+    background-color: #232323;
+}
+
+#dres-info .info-img {
+    background-color: #232323 ;
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    padding-left: 65px;
+    padding-top: 10px;
+    padding-bottom: 32px;
+}
+
+
+#dres-info .info-content {
+    background-color: #232323;
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 63.5px 30px;
+    overflow: hidden;
+
+}
+
+#dres-info .info-content h2{
+    color: #d4af37;
+    font-weight: bold;
+}
+
+#dres-info .info-content p{
+    padding-bottom:30px;
+    color: #D4AF37 ;
+}
+    
+.box{
+    padding-top: 40px;
+    width: 20%; 
+    height: 400px;
+    background-color: black;
+    float: left;
+    text-align: center;
+    color: white;
+    border: solid 5px #D4AF37;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+@font-face {
+    font-family: naslov;
+    src: url("../font/Akira\ Expanded\ Demo.otf");
+}
+
+.tabela{
+    background-color: #d4af37 ;
+    width:100%;
+    height: 75px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: naslov;
+    word-spacing: 0cm;
+    color: #d4af37;
+
+}
+
+.tabela tr th{
+    width: 14.28%;
+    background-color: black;
+    border-style: none;
+}
+
+.tabela tr th:nth-child(even){
+    background-color: white;
+}
+
+#main-footer{
+    text-align: center;
+    background-color: #232323;
+    color: white;
+    padding: 20px;
+    border-top: 2px solid #d4af37;
+
+}
+
+.clr{
+    clear:both;
+}
+
+
+
+#onama-istorija{
+    background-color: #0f0e0e;
+    color: white;
+}
+
+#onama-istorija .onama-desno{
+    padding-top: 150px;
+    float: right;
+    width: 50%;
+    min-height: 100%;
+
+}
+
+#onama-istorija .onama-desno h2{
+    text-align: center;
+}
+
+#onama-istorija .onama-desno img{
+    width: 80%;
+    display: block;
+    margin: auto;
+
+}
+
+#onama-istorija .onama-levo{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    padding: 30px 0;
+}
+
+#evropa .evropa-levo{
+    padding-top: 70px;
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+}
+
+#evropa .evropa-levo img{
+    height: 300px;
+}
+
+#evropa .evropa-desno{
+    padding-top: 70px;
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#novosti{
+    padding-top: 30px;
+    background-color: rgb(22, 19, 19);
+}
+
+#novosti h3{
+    color: #d4af37;
+    text-align: center;
+}
+
+#novosti img{
+    image-orientation: center;
+}
+
+
+
+
+
+@font-face {
+    font-family: kontakt;
+    src: url("../font/Anton-Regular.ttf");
+}
+
+
+#kontakt{
+    font-family: "kontakt";
+    min-height: 100vh;
+    background: url(../img/wallpaper.jpg) no-repeat; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info{
+    color: #D4AF37;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
+    margin-top: 150px;
+}
+
+.contact-info i{
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.contact-form{
+    max-width: 700px;
+    margin-right: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-info, .contact-form{
+    flex:1;
+}
+
+.contact-form h2{
+    color:#D4AF37;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.contact-form .text-box{
+    background: #D4AF37;
+    color: white;
+    border: none;
+    width: calc(50% -10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+.contact-form .text-box:hover {
+    opacity: 1.0;
+}
+
+.contact-form .text-box:first-child{
+    margin-right: 15px;
+}
+
+.contact-form textarea{
+    background: #d4af37;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+.contact-form textarea:hover{
+    opacity: 0.9;
+}
+
+.contact-form .posalji{
+    float: right;
+    background: #d4af37;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.5;
+}
+
+.contact-form .posalji:hover{
+    opacity: 0.9;
+}
+
+
+
+#nazad{
+    margin-top: 70px;
+}
+
+#nazad .dugme-nazad{
+    color: #d4af37;
+    opacity: 0.5;
+}
+
+#nazad .dugme-nazad:hover{
+    opacity: 0.9;
+
+}
+
+
+
+#nastim {
+    background-color: #302e2e;
+}
+
+#nastim .ceotim{
+    text-align: center;
+    color: #d4af37;
+    height: 700px;
+    padding-top: 10px;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+
+}
+
+.igraci{
+    padding-left:300px;
+}
+
+.zagorac .slika{
+    float: left;
+    padding-right: 50px
+}
+
+.zagorac .podaci{
+    padding-top:30px;
+    padding-left: 10px;
+}
+
+.zagorac .podaci h1{
+    color: #D4AF37;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.zagorac .podaci p{
+    color: #868686;
+    font-style: italic;
+    
+}
+ 
+.zagorac .podaci p:nth-child(odd){
+    color:white;
+    font-weight: bold;
+    font-size:18px
+}
+
+
+.dangubic .slika{
+    float:left;
+    padding-right: 50px;
+}
+
+.dangubic .podaci{
+    padding-top:30px;
+    padding-left: 10px;
+}
+
+.dangubic .podaci h1{
+    color: #D4AF37;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.dangubic .podaci p{
+    color: #868686;
+    font-style: italic;
+    
+}
+ 
+.dangubic .podaci p:nth-child(odd){
+    color:white;
+    font-weight: bold;
+    font-size:18px
+}
+
+.trifunovic .slika{
+    float: left;
+    padding-right: 50px;
+}
+
+.trifunovic .podaci{
+    padding-top:30px;
+    padding-left: 10px;
+}
+
+.trifunovic .podaci h1{
+    color: #D4AF37;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.trifunovic .podaci p{
+    color: #868686;
+    font-style: italic;
+    
+}
+ 
+.trifunovic .podaci p:nth-child(odd){
+    color:white;
+    font-weight: bold;
+    font-size:18px
+}
+
+.jovanovic .slika{
+    float: left;
+    padding-right: 50px;
+}
+
+.jovanovic .podaci{
+    padding-top:30px;
+    padding-left: 10px;
+}
+
+.jovanovic .podaci h1{
+    color: #D4AF37;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.jovanovic .podaci p{
+    color: #868686;
+    font-style: italic;
+    
+}
+ 
+.jovanovic .podaci p:nth-child(odd){
+    color:white;
+    font-weight: bold;
+    font-size:18px
+}
+
+
+.punter .slika{
+    float: left;
+    padding-right: 50px;
+}
+
+.punter .podaci{
+    padding-top:30px;
+    padding-left: 10px;
+}
+
+.punter .podaci h1{
+    color: #D4AF37;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.punter .podaci p{
+    color: #868686;
+    font-style: italic;
+    
+}
+ 
+.punter .podaci p:nth-child(odd){
+    color:white;
+    font-weight: bold;
+    font-size:18px
+}
+
+
+.avramovic .slika{
+    float: left;
+    padding-right: 50px;
+}
+
+.avramovic .podaci{
+    padding-top:30px;
+    padding-left: 10px;
+}
+
+.avramovic .podaci h1{
+    color: #D4AF37;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.avramovic .podaci p{
+    color: #868686;
+    font-style: italic;
+    
+}
+ 
+.avramovic .podaci p:nth-child(odd){
+    color:white;
+    font-weight: bold;
+    font-size:18px
+}
+
+
+.leday .slika{
+    float: left;
+    padding-right: 50px;
+}
+
+.leday .podaci{
+    padding-top:30px;
+    padding-left: 10px;
+}
+
+.leday .podaci h1{
+    color: #D4AF37;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.leday .podaci p{
+    color: #868686;
+    font-style: italic;
+    
+}
+ 
+.leday .podaci p:nth-child(odd){
+    color:white;
+    font-weight: bold;
+    font-size:18px
+}
+
+
+.kurucs .slika{
+    float: left;
+    padding-right: 50px;
+}
+
+.kurucs .podaci{
+    padding-top:30px;
+    padding-left: 10px;
+}
+
+.kurucs .podaci h1{
+    color: #D4AF37;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.kurucs .podaci p{
+    color: #868686;
+    font-style: italic;
+    
+}
+ 
+.kurucs .podaci p:nth-child(odd){
+    color:white;
+    font-weight: bold;
+    font-size:18px
+}
+
+
+.moore .slika{
+    float: left;
+    padding-right: 50px;
+}
+
+.moore .podaci{
+    padding-top:30px;
+    padding-left: 10px;
+}
+
+.moore .podaci h1{
+    color: #D4AF37;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.moore .podaci p{
+    color: #868686;
+    font-style: italic;
+    
+}
+ 
+.moore .podaci p:nth-child(odd){
+    color:white;
+    font-weight: bold;
+    font-size:18px
+}
+
+
+.miletic .slika{
+    float: left;
+    padding-right: 50px;
+}
+
+.miletic .podaci{
+    padding-top:30px;
+    padding-left: 10px;
+}
+
+.miletic .podaci h1{
+    color: #D4AF37;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.miletic .podaci p{
+    color: #868686;
+    font-style: italic;
+    
+}
+ 
+.miletic .podaci p:nth-child(odd){
+    color:white;
+    font-weight: bold;
+    font-size:18px
+}
+
+
+.smailagic .slika{
+    float: left;
+    padding-right: 50px;
+}
+
+.smailagic .podaci{
+    padding-top:30px;
+    padding-left: 10px;
+}
+
+.smailagic .podaci h1{
+    color: #D4AF37;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.smailagic .podaci p{
+    color: #868686;
+    font-style: italic;
+    
+}
+ 
+.smailagic .podaci p:nth-child(odd){
+    color:white;
+    font-weight: bold;
+    font-size:18px
+}
+
+.madar .slika{
+    float: left;
+    padding-right: 50px;
+}
+
+.madar .podaci{
+    padding-top:30px;
+    padding-left: 10px;
+}
+
+.madar .podaci h1{
+    color: #D4AF37;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.madar .podaci p{
+    color: #868686;
+    font-style: italic;
+    
+}
+ 
+.madar .podaci p:nth-child(odd){
+    color:white;
+    font-weight: bold;
+    font-size:18px
+}
+
+.koprivica .slika{
+    float: left;
+    padding-right: 50px;
+}
+
+.koprivica .podaci{
+    padding-top:30px;
+    padding-left: 10px;
+}
+
+.koprivica .podaci h1{
+    color: #D4AF37;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.koprivica .podaci p{
+    color: #868686;
+    font-style: italic;
+    
+}
+ 
+.koprivica .podaci p:nth-child(odd){
+    color:white;
+    font-weight: bold;
+    font-size:18px
+}
+
+.glas .slika{
+    float: left;
+    padding-right: 50px;
+}
+
+.glas .podaci{
+    padding-top:30px;
+    padding-left: 10px;
+}
+
+.glas .podaci h1{
+    color: #D4AF37;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.glas .podaci p{
+    color: #868686;
+    font-style: italic;
+    
+}
+ 
+.glas .podaci p:nth-child(odd){
+    color:white;
+    font-weight: bold;
+    font-size:18px
+}
+
+.nastim .sastav{
+    border-top: 2px solid #D4AF37;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.nastim .sastav h1{
+    color: #d4af37;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+
+
+@media screen and (max-width: 600px){
+    #navbar{
+        float:none;
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 750px){
+
+    #showcase .showcase-content h1{
+        font-size:8vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+#showcase .showcase-content p{
+    font-size: 3.2vw;
+}
+
+
+}
+
+@media screen and(max-width:1000px){
+    #dres-info{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 950px){
+    #dres-info .info-img{
+        float: none;
+        margin-right: 0;
+        width:auto;
+
+    }
+
+    #dres-info .info-img img{
+        float:none;
+        width: 60%;
+        margin: 1% 20%;
+    }
+
+    #dres-info .info-content{
+        float:none;
+        margin-left:0;
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 1050px){
+    #trofeji .box h3{
+     font-size:2vw;   
+    }
+
+    #trofeji .box p{
+        font-size:1vw;
+    }
+}
+
+
+@media screen and (max-width:950px){
+    #onama-istorija .onama-desno{
+        float: none;
+        width:auto;
+    }
+
+    #onama-istorija .onama-levo{
+        float:none;
+        width:auto;
+    }
+
+    #onama-istorija .onama-desno img{
+        float:none;
+        width: 90%;
+        margin: 1% 5%;
+    }
+
+    #onama-istorija .onama-levo p{
+        font-size:15px;
+    }
+
+
+    #evropa .evropa-levo{
+        float:none;
+        width:auto;
+    }
+
+    #evropa .evropa-desno{
+        float:none;
+        width:auto;
+    }
+
+    #evropa .evropa-levo img{
+        float:none;
+        width: 90%;
+        margin: 1% 5%;
+    }
+
+    #evropa .evropa-levo iframe{
+        float:none;
+        width: 90%;
+        margin: 1% 5%;
+    }
+
+    #evropa .evropa-desno p{
+        font-size:15px;
+    }
+}
+
+
+@media screen and (max-width: 950px){
+    .contact-section{
+        flex-direction: column;
+    }
+
+    .contact-info, .contact-form{
+        margin: 30px 50px;
+    }
+
+    .contact-form h2{
+        font-size:30px;
+    }
+
+    .contact-form .text-box{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:950px)
+{
+    .igraci{
+        padding-left:2px;
+        flex-direction: column;
+    }
+
+    .igraci{
+        font-size: 16px;
+    }
+
+    .ceotim img{
+        max-width: 90%;
+        height: auto;
+    }
+
+    .nastim {
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .nastim img{
+        width: 100%;
+    }
+
+    .nastim podaci{
+        width: 100%;
+    }
+}
